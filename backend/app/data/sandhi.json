@@ -1,0 +1,44 @@
+{
+  "explanation": "Sandhi (सन्धि) literally means 'joining' or 'union'. It is the process by which sounds at the boundary of words or morphemes combine and change. Sandhi makes Sanskrit flow smoothly when spoken. There are three main types: vowel sandhi (स्वर सन्धि), consonant sandhi (व्यञ्जन सन्धि), and visarga sandhi (विसर्ग सन्धि).",
+  "types": [
+    {
+      "id": "svara",
+      "name": "Vowel Sandhi (स्वर सन्धि)",
+      "description": "When two vowels meet at a word boundary, they combine or change. This is the most common type of sandhi for beginners.",
+      "rules": [
+        {"rule": "अ + अ = आ", "example_parts": ["देव", "अलयः"], "result": "देवालयः", "meaning": "temple (literally: house of god)", "english_rule": "a + a = ā"},
+        {"rule": "अ + इ = ए", "example_parts": ["देव", "इन्द्रः"], "result": "देवेन्द्रः", "meaning": "king of gods", "english_rule": "a + i = e"},
+        {"rule": "अ + उ = ओ", "example_parts": ["सूर्य", "उदयः"], "result": "सूर्योदयः", "meaning": "sunrise", "english_rule": "a + u = o"},
+        {"rule": "इ + इ = ई", "example_parts": ["कवि", "इन्द्रः"], "result": "कवीन्द्रः", "meaning": "best of poets", "english_rule": "i + i = ī"},
+        {"rule": "उ + उ = ऊ", "example_parts": ["गुरु", "उपदेशः"], "result": "गुरूपदेशः", "meaning": "teaching of the guru", "english_rule": "u + u = ū"}
+      ]
+    },
+    {
+      "id": "vyanjana",
+      "name": "Consonant Sandhi (व्यञ्जन सन्धि)",
+      "description": "When a consonant at the end of a word meets another sound at the beginning of the next word, changes may occur.",
+      "rules": [
+        {"rule": "त् + vowel = द्", "example_parts": ["तत्", "अस्ति"], "result": "तदस्ति", "meaning": "that exists", "english_rule": "Final t before a vowel becomes d"},
+        {"rule": "त् + ज = ज्ज", "example_parts": ["सत्", "जनः"], "result": "सज्जनः", "meaning": "good person", "english_rule": "t + j = jj"}
+      ]
+    },
+    {
+      "id": "visarga",
+      "name": "Visarga Sandhi (विसर्ग सन्धि)",
+      "description": "The visarga (ः) at the end of a word can change when the next word starts with certain sounds.",
+      "rules": [
+        {"rule": "अः + voiced consonant = ओ", "example_parts": ["रामः", "गच्छति"], "result": "रामो गच्छति", "meaning": "Rama goes", "english_rule": "aḥ before a voiced consonant becomes o"},
+        {"rule": "अः + अ = ओ + elision", "example_parts": ["सः", "अस्ति"], "result": "सोऽस्ति", "meaning": "he exists", "english_rule": "aḥ + a = o with avagraha"}
+      ]
+    }
+  ],
+  "examples": [
+    {"combined": "देवालयः", "parts": ["देव", "आलयः"], "type": "svara", "meaning": "temple", "breakdown": "देव (god) + आलयः (house) → अ + आ = आ → देवालयः"},
+    {"combined": "हिमालयः", "parts": ["हिम", "आलयः"], "type": "svara", "meaning": "Himalayas (abode of snow)", "breakdown": "हिम (snow) + आलयः (abode) → अ + आ = आ → हिमालयः"},
+    {"combined": "सूर्योदयः", "parts": ["सूर्य", "उदयः"], "type": "svara", "meaning": "sunrise", "breakdown": "सूर्य (sun) + उदयः (rising) → अ + उ = ओ → सूर्योदयः"},
+    {"combined": "विद्यालयः", "parts": ["विद्या", "आलयः"], "type": "svara", "meaning": "school (house of learning)", "breakdown": "विद्या (knowledge) + आलयः (house) → आ + आ = आ → विद्यालयः"},
+    {"combined": "नरेन्द्रः", "parts": ["नर", "इन्द्रः"], "type": "svara", "meaning": "king of men", "breakdown": "नर (man) + इन्द्रः (lord) → अ + इ = ए → नरेन्द्रः"},
+    {"combined": "महेश्वरः", "parts": ["महा", "ईश्वरः"], "type": "svara", "meaning": "great lord (Shiva)", "breakdown": "महा (great) + ईश्वरः (lord) → आ + ई = ए → महेश्वरः"},
+    {"combined": "सज्जनः", "parts": ["सत्", "जनः"], "type": "vyanjana", "meaning": "good person", "breakdown": "सत् (good/true) + जनः (person) → त् + ज = ज्ज → सज्जनः"}
+  ]
+}

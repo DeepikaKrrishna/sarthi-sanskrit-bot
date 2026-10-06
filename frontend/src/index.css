@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-50: #f7f8fc;
+  --color-ink-100: #e9ecf4;
+  --color-ink-200: #d7dbe7;
+  --color-ink-300: #b9bfd0;
+  --color-ink-400: #8e96ad;
+  --color-ink-500: #70788e;
+  --color-ink-600: #555d73;
+  --color-ink-700: #3c4357;
+  --color-ink-800: #2b3040;
+  --color-ink-900: #171a28;
+}
+
+:root {
+  font-family: "Noto Sans", "Noto Sans Devanagari", system-ui, -apple-system, sans-serif;
+  color: var(--color-ink-900);
+  background: #f7f8fc;
+  -webkit-font-smoothing: antialiased;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; min-width: 320px; overflow: hidden; }
+button, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(135deg, #5b5ee8 0%, #6d5dfc 100%);
+  box-shadow: 0 8px 22px rgba(91, 94, 232, 0.22);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, #4f50d7 0%, #5e4fe8 100%);
+  box-shadow: 0 11px 26px rgba(91, 94, 232, 0.3);
+}
+.btn-primary:disabled {
+  opacity: 0.48;
+  box-shadow: none;
+}
+.btn-danger {
+  color: #fff;
+  background: #ef4444;
+  transition: background 160ms ease, transform 160ms ease;
+}
+.btn-danger:hover:not(:disabled) {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+.btn-danger:disabled {
+  opacity: 0.48;
+}
+
+.prose-chat { font-size: 0.94rem; line-height: 1.75; color: #30364a; }
+.prose-chat p { margin: 0.45em 0; }
+.prose-chat strong { color: #30364a; font-weight: 700; }
+.prose-chat h2, .prose-chat h3 { margin: 0.85em 0 0.35em; font-weight: 700; }
+.prose-chat h2 { font-size: 1.1rem; }
+.prose-chat h3 { font-size: 1rem; }
+.prose-chat ul, .prose-chat ol { padding-left: 1.2em; margin: 0.3em 0; }
+.prose-chat li { margin: 0.15em 0; }
+.prose-chat a { color: #5b5ee8; text-decoration: underline; text-underline-offset: 3px; }
+.prose-chat code { border-radius: 0.4rem; background: #eef0f6; padding: 0.12rem 0.36rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.88em; }
+.prose-chat pre { overflow-x: auto; border-radius: 0.75rem; background: #202338; color: #f5f6fb; padding: 0.9rem; }
+
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d5d9e4; border-radius: 999px; }

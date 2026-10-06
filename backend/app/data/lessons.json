@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1, "title": "Introduction to Sanskrit", "level": "beginner",
+    "content": "Sanskrit (संस्कृतम्) is one of the oldest languages in the world. The word 'Sanskrit' means 'refined' or 'perfected'. It is the classical language of India and the liturgical language of Hinduism, Buddhism, and Jainism. Sanskrit has a highly systematic grammar, described by the ancient grammarian Pāṇini. It uses the Devanagari script, which is also used by Hindi and other Indian languages. Sanskrit is known for its precision and its rich literary tradition spanning thousands of years.",
+    "examples": [{"sanskrit": "संस्कृतम्", "english": "Sanskrit (the refined language)"}, {"sanskrit": "नमस्ते", "english": "Hello / Greetings (I bow to you)"}],
+    "practice": {"question": "What does the word 'Sanskrit' (संस्कृतम्) literally mean?", "options": ["Ancient", "Refined / Perfected", "Holy", "Written"], "answer": "Refined / Perfected"}
+  },
+  {
+    "id": 2, "title": "Basic Vocabulary", "level": "beginner",
+    "content": "Let us learn some common Sanskrit words. Sanskrit vocabulary covers everyday objects, nature, people, and abstract concepts. Each word has a grammatical gender (masculine, feminine, or neuter) and a root form. Learning these basic words will help you understand simple sentences.",
+    "examples": [
+      {"sanskrit": "जलम्", "english": "water"},
+      {"sanskrit": "फलम्", "english": "fruit"},
+      {"sanskrit": "पुस्तकम्", "english": "book"},
+      {"sanskrit": "गृहम्", "english": "house"},
+      {"sanskrit": "सूर्यः", "english": "sun"},
+      {"sanskrit": "चन्द्रः", "english": "moon"},
+      {"sanskrit": "नदी", "english": "river"},
+      {"sanskrit": "वनम्", "english": "forest"}
+    ],
+    "practice": {"question": "What is the Sanskrit word for 'water'?", "options": ["फलम्", "जलम्", "वनम्", "गृहम्"], "answer": "जलम्"}
+  },
+  {
+    "id": 3, "title": "Pronouns", "level": "beginner",
+    "content": "Pronouns replace nouns in a sentence. Sanskrit pronouns change form based on person (first, second, third), number (singular, dual, plural), and gender (for third person). Let us start with the singular forms.",
+    "examples": [
+      {"sanskrit": "अहम्", "english": "I"},
+      {"sanskrit": "त्वम्", "english": "you (singular)"},
+      {"sanskrit": "सः", "english": "he / that (masculine)"},
+      {"sanskrit": "सा", "english": "she / that (feminine)"},
+      {"sanskrit": "तत्", "english": "it / that (neuter)"}
+    ],
+    "practice": {"question": "How do you say 'I' in Sanskrit?", "options": ["त्वम्", "सः", "अहम्", "सा"], "answer": "अहम्"}
+  },
+  {
+    "id": 4, "title": "Nouns and Gender", "level": "beginner",
+    "content": "Every Sanskrit noun has a grammatical gender that affects how it changes form. Masculine nouns often end in -अः in the nominative case (रामः, बालकः). Feminine nouns often end in -आ or -ई (सीता, नदी). Neuter nouns often end in -अम् (फलम्, जलम्). Knowing the gender helps you use the correct adjective and pronoun forms.",
+    "examples": [
+      {"sanskrit": "बालकः (masculine)", "english": "boy"},
+      {"sanskrit": "बालिका (feminine)", "english": "girl"},
+      {"sanskrit": "पुस्तकम् (neuter)", "english": "book"}
+    ],
+    "practice": {"question": "Which gender ending is -अम् typically associated with?", "options": ["Masculine", "Feminine", "Neuter"], "answer": "Neuter"}
+  },
+  {
+    "id": 5, "title": "The Eight Cases", "level": "beginner",
+    "content": "Sanskrit uses eight cases (विभक्ति) to show the role of a noun in a sentence. Unlike English, which uses word order and prepositions, Sanskrit changes the ending of the noun. The eight cases are: 1. Nominative (कर्ता — subject), 2. Accusative (कर्म — object), 3. Instrumental (करण — by/with), 4. Dative (सम्प्रदान — for/to), 5. Ablative (अपादान — from), 6. Genitive (सम्बन्ध — of), 7. Locative (अधिकरण — in/on/at), 8. Vocative (सम्बोधन — addressing).",
+    "examples": [
+      {"sanskrit": "रामः (nominative)", "english": "Rama (as subject)"},
+      {"sanskrit": "रामम् (accusative)", "english": "Rama (as object)"},
+      {"sanskrit": "रामेण (instrumental)", "english": "by/with Rama"},
+      {"sanskrit": "रामाय (dative)", "english": "for/to Rama"}
+    ],
+    "practice": {"question": "Which case marks the subject of a sentence?", "options": ["Accusative", "Nominative", "Dative", "Genitive"], "answer": "Nominative"}
+  },
+  {
+    "id": 6, "title": "Basic Verbs", "level": "beginner",
+    "content": "Sanskrit verbs change form based on person and number. In present tense (लट् लकार), the basic pattern for third, second, and first person singular is: -ति, -सि, -मि. For example, from the root गम् (to go): गच्छति (he/she goes), गच्छसि (you go), गच्छामि (I go).",
+    "examples": [
+      {"sanskrit": "गच्छति / गच्छसि / गच्छामि", "english": "goes / you go / I go"},
+      {"sanskrit": "पठति / पठसि / पठामि", "english": "reads / you read / I read"},
+      {"sanskrit": "लिखति / लिखसि / लिखामि", "english": "writes / you write / I write"},
+      {"sanskrit": "खादति / खादसि / खादामि", "english": "eats / you eat / I eat"}
+    ],
+    "practice": {"question": "What verb ending marks 'I' (first person singular) in present tense?", "options": ["-ति", "-सि", "-मि", "-न्ति"], "answer": "-मि"}
+  },
+  {
+    "id": 7, "title": "Simple Sentences", "level": "beginner",
+    "content": "Sanskrit sentences typically follow Subject-Object-Verb (SOV) order. The subject is in the nominative case, the object is in the accusative case, and the verb comes last. Because case endings show the grammatical role, word order is flexible, but SOV is the standard.",
+    "examples": [
+      {"sanskrit": "रामः वनं गच्छति।", "english": "Rama goes to the forest."},
+      {"sanskrit": "बालकः फलं खादति।", "english": "The boy eats a fruit."},
+      {"sanskrit": "छात्रः पुस्तकं पठति।", "english": "The student reads a book."},
+      {"sanskrit": "अहं विद्यालयं गच्छामि।", "english": "I go to school."}
+    ],
+    "practice": {"question": "What is the standard word order in Sanskrit?", "options": ["SVO", "SOV", "VSO", "OVS"], "answer": "SOV"}
+  },
+  {
+    "id": 8, "title": "Introduction to Sandhi", "level": "beginner",
+    "content": "Sandhi (सन्धि) means 'joining'. When Sanskrit words are spoken together, the sounds at their boundaries can change. For example, देव + आलयः = देवालयः (temple). This happens because अ + आ merges into आ. Sandhi makes Sanskrit flow naturally when spoken. There are three main types: vowel sandhi (स्वर सन्धि), consonant sandhi (व्यञ्जन सन्धि), and visarga sandhi (विसर्ग सन्धि).",
+    "examples": [
+      {"sanskrit": "देव + आलयः = देवालयः", "english": "god + house = temple"},
+      {"sanskrit": "सूर्य + उदयः = सूर्योदयः", "english": "sun + rising = sunrise"},
+      {"sanskrit": "हिम + आलयः = हिमालयः", "english": "snow + abode = Himalayas"}
+    ],
+    "practice": {"question": "What does Sandhi (सन्धि) mean?", "options": ["Breaking", "Joining", "Writing", "Reading"], "answer": "Joining"}
+  }
+]

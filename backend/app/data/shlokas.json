@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "sanskrit": "वसुधैव कुटुम्बकम्",
+    "transliteration": "vasudhaiva kuṭumbakam",
+    "meaning": "The whole world is one family.",
+    "explanation": "This phrase emphasizes the unity of all living beings. It teaches that we should treat all people as members of our own family, regardless of differences.",
+    "source": "Mahā Upaniṣad (6.71–73)"
+  },
+  {
+    "id": 2,
+    "sanskrit": "अहिंसा परमो धर्मः",
+    "transliteration": "ahiṁsā paramo dharmaḥ",
+    "meaning": "Non-violence is the highest dharma (duty/virtue).",
+    "explanation": "This widely cited phrase teaches that non-violence and compassion toward all beings is considered the most important moral principle.",
+    "source": "Mahābhārata (Ādi Parva 11.13)"
+  },
+  {
+    "id": 3,
+    "sanskrit": "सत्यमेव जयते",
+    "transliteration": "satyameva jayate",
+    "meaning": "Truth alone triumphs.",
+    "explanation": "This phrase asserts that truth always prevails in the end. It is the national motto of India.",
+    "source": "Muṇḍaka Upaniṣad (3.1.6)"
+  },
+  {
+    "id": 4,
+    "sanskrit": "विद्या ददाति विनयम्",
+    "transliteration": "vidyā dadāti vinayam",
+    "meaning": "Knowledge gives humility.",
+    "explanation": "True knowledge makes a person humble. The full verse continues to describe how humility leads to worthiness, wealth, dharma, and happiness.",
+    "source": "Hitopadeśa"
+  },
+  {
+    "id": 5,
+    "sanskrit": "योगः कर्मसु कौशलम्",
+    "transliteration": "yogaḥ karmasu kauśalam",
+    "meaning": "Yoga (skill/excellence) is skill in action.",
+    "explanation": "This verse defines yoga not just as physical postures but as performing every action with skill, mindfulness, and without attachment to results.",
+    "source": "Bhagavad Gītā (2.50)"
+  },
+  {
+    "id": 6,
+    "sanskrit": "तमसो मा ज्योतिर्गमय",
+    "transliteration": "tamaso mā jyotirgamaya",
+    "meaning": "Lead me from darkness to light.",
+    "explanation": "A prayer asking to be led from ignorance (darkness) to knowledge (light). It is part of a set of three such prayers for truth, light, and immortality.",
+    "source": "Bṛhadāraṇyaka Upaniṣad (1.3.28)"
+  },
+  {
+    "id": 7,
+    "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
+    "transliteration": "karmaṇyevādhikāraste mā phaleṣu kadācana",
+    "meaning": "You have a right to perform your duty, but never to its results.",
+    "explanation": "This verse from the Gita teaches selfless action. One should focus on doing one's duty without being attached to the outcome.",
+    "source": "Bhagavad Gītā (2.47)"
+  },
+  {
+    "id": 8,
+    "sanskrit": "सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः",
+    "transliteration": "sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ",
+    "meaning": "May all be happy, may all be free from illness.",
+    "explanation": "A universal prayer wishing happiness and health for all beings, reflecting the Sanskrit tradition of universal well-being.",
+    "source": "Traditional Sanskrit prayer (source texts vary)"
+  },
+  {
+    "id": 9,
+    "sanskrit": "गुरुर्ब्रह्मा गुरुर्विष्णुः गुरुर्देवो महेश्वरः",
+    "transliteration": "gurur brahmā gurur viṣṇuḥ gurur devo maheśvaraḥ",
+    "meaning": "The guru is Brahma, the guru is Vishnu, the guru is the great lord Shiva.",
+    "explanation": "This verse elevates the teacher to the highest position, equating the guru with the three primary deities, reflecting the deep respect for teachers in the Sanskrit tradition.",
+    "source": "Guru Stotram"
+  },
+  {
+    "id": 10,
+    "sanskrit": "मातृदेवो भव पितृदेवो भव आचार्यदेवो भव",
+    "transliteration": "mātṛdevo bhava pitṛdevo bhava ācāryadevo bhava",
+    "meaning": "Treat your mother as god, your father as god, your teacher as god.",
+    "explanation": "This teaching emphasizes the deep respect and reverence one should have for one's mother, father, and teacher.",
+    "source": "Taittirīya Upaniṣad (1.11.2)"
+  }
+]

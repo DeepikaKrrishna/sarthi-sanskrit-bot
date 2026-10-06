@@ -1,0 +1,81 @@
+{
+  "topics": [
+    {
+      "id": "nouns",
+      "title": "Nouns (संज्ञा)",
+      "explanation": "Sanskrit nouns have three genders (masculine, feminine, neuter), three numbers (singular, dual, plural), and eight cases (vibhakti). The ending of a noun changes based on its gender, number, and case.",
+      "examples": [
+        {"sanskrit": "रामः", "english": "Rama (masculine, singular, nominative)", "note": "The visarga (ः) is a common nominative masculine ending."},
+        {"sanskrit": "सीता", "english": "Sita (feminine, singular, nominative)", "note": "Many feminine nouns end in -ā in the nominative."},
+        {"sanskrit": "फलम्", "english": "fruit (neuter, singular, nominative)", "note": "Many neuter nouns end in -am in the nominative."}
+      ],
+      "practice": {"question": "Which gender is the word 'वनम्' (forest)?", "options": ["Masculine", "Feminine", "Neuter"], "answer": "Neuter", "explanation": "Words ending in -अम् in nominative singular are typically neuter."}
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronouns (सर्वनाम)",
+      "explanation": "Sanskrit has personal pronouns for first person (I/we), second person (you), and third person (he/she/it/they). Third person pronouns also vary by gender.",
+      "examples": [
+        {"sanskrit": "अहम्", "english": "I (first person singular)", "note": "Used regardless of gender."},
+        {"sanskrit": "त्वम्", "english": "you (second person singular)", "note": "Used regardless of gender."},
+        {"sanskrit": "सः / सा / तत्", "english": "he / she / it (third person singular)", "note": "Changes by gender: सः (m), सा (f), तत् (n)."}
+      ],
+      "practice": {"question": "What is the Sanskrit pronoun for 'she'?", "options": ["सः", "सा", "तत्", "अहम्"], "answer": "सा", "explanation": "सा is the feminine third-person singular pronoun."}
+    },
+    {
+      "id": "verbs",
+      "title": "Verbs (क्रिया)",
+      "explanation": "Sanskrit verbs conjugate based on person (first, second, third) and number (singular, dual, plural). The present tense (लट् लकार) is the most common starting point. Verbs are grouped into classes (gaṇa) based on how the root is modified.",
+      "examples": [
+        {"sanskrit": "गच्छति", "english": "he/she goes (3rd person singular)", "note": "Root: गम् (to go). The -ति ending marks third person singular."},
+        {"sanskrit": "गच्छामि", "english": "I go (1st person singular)", "note": "The -आमि ending marks first person singular."},
+        {"sanskrit": "गच्छसि", "english": "you go (2nd person singular)", "note": "The -असि ending marks second person singular."}
+      ],
+      "practice": {"question": "What does गच्छामि mean?", "options": ["He goes", "I go", "You go", "They go"], "answer": "I go", "explanation": "The -āmi ending is first person singular present tense."}
+    },
+    {
+      "id": "cases",
+      "title": "Cases (विभक्ति)",
+      "explanation": "Sanskrit uses eight cases to show the role of a noun in a sentence. The case is shown by changing the ending of the word rather than using prepositions (as English does).",
+      "examples": [
+        {"sanskrit": "रामः गच्छति", "english": "Rama goes (nominative — the doer)", "note": "First case (प्रथमा विभक्ति) marks the subject."},
+        {"sanskrit": "रामं पश्यति", "english": "sees Rama (accusative — the object)", "note": "Second case (द्वितीया विभक्ति) marks the object."},
+        {"sanskrit": "रामेण सह", "english": "with Rama (instrumental)", "note": "Third case (तृतीया विभक्ति) marks the instrument or accompaniment."}
+      ],
+      "practice": {"question": "In 'रामं पश्यति', what case is रामं?", "options": ["Nominative", "Accusative", "Instrumental", "Dative"], "answer": "Accusative", "explanation": "रामं is the accusative (object) form. The -अं ending marks the accusative singular for masculine nouns."}
+    },
+    {
+      "id": "gender",
+      "title": "Gender (लिङ्ग)",
+      "explanation": "Every Sanskrit noun has a grammatical gender: masculine (पुल्लिङ्ग), feminine (स्त्रीलिङ्ग), or neuter (नपुंसकलिङ्ग). Adjectives must agree in gender with the noun they describe.",
+      "examples": [
+        {"sanskrit": "बालकः", "english": "boy (masculine)", "note": "Masculine nouns often end in -अः in the nominative."},
+        {"sanskrit": "बालिका", "english": "girl (feminine)", "note": "Feminine nouns often end in -आ or -ई in the nominative."},
+        {"sanskrit": "फलम्", "english": "fruit (neuter)", "note": "Neuter nouns often end in -अम् in the nominative."}
+      ],
+      "practice": {"question": "What is the gender of 'नदी' (river)?", "options": ["Masculine", "Feminine", "Neuter"], "answer": "Feminine", "explanation": "नदी ends in -ई, a common feminine ending."}
+    },
+    {
+      "id": "tenses",
+      "title": "Tenses (लकार)",
+      "explanation": "Sanskrit has ten tense-mood forms called lakāra. The most important for beginners are the present (लट्), past (लङ्), and future (लृट्). Each tense changes the verb endings.",
+      "examples": [
+        {"sanskrit": "गच्छति", "english": "goes (present tense — लट्)", "note": "Present tense is the starting point for learning conjugation."},
+        {"sanskrit": "अगच्छत्", "english": "went (past tense — लङ्)", "note": "Past tense adds अ- prefix (augment) and changes the ending."},
+        {"sanskrit": "गमिष्यति", "english": "will go (future tense — लृट्)", "note": "Future tense inserts -इष्य- before the ending."}
+      ],
+      "practice": {"question": "What tense is 'गमिष्यति'?", "options": ["Present", "Past", "Future", "Imperative"], "answer": "Future", "explanation": "The -इष्यति ending is a marker of the future tense (लृट् लकार)."}
+    },
+    {
+      "id": "sentence_structure",
+      "title": "Sentence Structure (वाक्य रचना)",
+      "explanation": "The typical Sanskrit sentence follows Subject-Object-Verb (SOV) order. Because case endings already show who does what, word order is flexible, but SOV is the most natural and common.",
+      "examples": [
+        {"sanskrit": "रामः वनं गच्छति", "english": "Rama (S) forest (O) goes (V)", "note": "Subject-Object-Verb is the default order."},
+        {"sanskrit": "बालकः फलं खादति", "english": "The boy (S) fruit (O) eats (V)", "note": "Same SOV pattern."},
+        {"sanskrit": "गुरुः शिष्यं पठयति", "english": "The teacher (S) the student (O) teaches (V)", "note": "Because of case endings, the meaning stays the same even if you rearrange the words."}
+      ],
+      "practice": {"question": "What is the typical word order in Sanskrit?", "options": ["SVO", "SOV", "VSO", "OVS"], "answer": "SOV", "explanation": "Sanskrit typically follows Subject-Object-Verb order, unlike English which uses SVO."}
+    }
+  ]
+}

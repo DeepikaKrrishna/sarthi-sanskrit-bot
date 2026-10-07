@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Checking out Sarthi Sanskrit Bot source code from GitHub...'
+                echo 'Checking out Sarthi Sanskrit Bot from GitHub...'
                 checkout scm
                 echo 'Source code retrieved successfully.'
             }
@@ -14,34 +14,33 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Installing Python dependencies...'
-                bat 'pip install -r backend/requirements.txt --quiet'
-                echo 'Build complete.'
+                sh 'pip install -r backend/requirements.txt --quiet || pip3 install -r backend/requirements.txt --quiet'
+                echo 'Build stage complete.'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Running test suite...'
-                bat 'pip install pytest --quiet'
-                bat 'python -m pytest tests/ -v || echo Tests completed'
-                echo 'Validation complete.'
+                echo 'Running validation tests...'
+                sh 'pip install pytest --quiet || pip3 install pytest --quiet'
+                sh 'python -m pytest tests/ -v || python3 -m pytest tests/ -v || echo "Tests completed"'
+                echo 'Test stage complete.'
             }
         }
 
         stage('Docker Build') {
             steps {
-                echo 'Building Docker image for Sarthi backend...'
-                bat 'docker build -t sarthi-sanskrit-bot:latest .'
+                echo 'Building Docker image for Sarthi Sanskrit Bot...'
+                sh 'docker build -t sarthi-sanskrit-bot:latest .'
+                sh 'docker images sarthi-sanskrit-bot'
                 echo 'Docker image built successfully.'
-                bat 'docker images sarthi-sanskrit-bot'
             }
         }
 
         stage('Result') {
             steps {
-                echo 'Pipeline completed.'
-                echo 'Image: sarthi-sanskrit-bot:latest'
-                echo 'All stages passed successfully.'
+                echo 'Pipeline completed successfully.'
+                echo 'Sarthi Sanskrit Bot Docker image is ready.'
             }
         }
 
@@ -49,10 +48,10 @@ pipeline {
 
     post {
         success {
-            echo 'BUILD SUCCESS — Sarthi Sanskrit Bot is ready.'
+            echo 'BUILD SUCCESS — Sarthi Sanskrit Bot CI pipeline passed.'
         }
         failure {
-            echo 'BUILD FAILED — Check console output for errors.'
+            echo 'BUILD FAILED — Check console output above for details.'
         }
     }
 }

@@ -50,7 +50,7 @@ def health():
     return {
         "status": "ok",
         "service": "Sarthi Sanskrit Bot",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "timestamp": datetime.datetime.utcnow().isoformat(),
         "message": "Sarthi is running and ready to help you learn Sanskrit"
     }

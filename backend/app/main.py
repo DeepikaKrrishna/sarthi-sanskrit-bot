@@ -1,5 +1,6 @@
 """SĀRTHI — Sanskrit AI Research & Teaching Helper Interface (Backend)."""
 
+import datetime
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -46,7 +47,13 @@ class SandhiRequest(BaseModel):
 # ---------- health ----------
 @app.get("/api/health")
 def health():
-    return {"status": "healthy", "application": "SĀRTHI", "version": "1.0.0"}
+    return {
+        "status": "ok",
+        "service": "Sarthi Sanskrit Bot",
+        "version": "1.0.0",
+        "timestamp": datetime.datetime.utcnow().isoformat(),
+        "message": "Sarthi is running and ready to help you learn Sanskrit"
+    }
 
 
 # ---------- chat (ACT pipeline) ----------
